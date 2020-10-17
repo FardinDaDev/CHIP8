@@ -17,7 +17,6 @@ public class CHIP8 {
     private char[] key = new char[16];
 
     public CHIP8() {
-        //Init?
         pc = 0x200;
         opcode = 0;
         I = 0;
